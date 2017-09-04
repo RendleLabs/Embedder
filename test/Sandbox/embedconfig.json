@@ -1,0 +1,13 @@
+{
+  "Directory": "Embedded",
+  "TextFileExtensions": ["txt","html","htm","js","cs","svg","json","xml"],
+  "Classes": {
+    "TestFiles": {
+      "BinaryFile_ico": "TestFiles/BinaryFile.ico",
+      "ByteTextFile_txt": "TestFiles/ByteTextFile.txt",
+      "Index_html": "TestFiles/Index.html",
+      "StringFile_txt": "TestFiles/StringFile.txt",
+      "Fonts_Bobbins": "TestFiles/Fonts/Bobbins"
+    }
+  }
+}

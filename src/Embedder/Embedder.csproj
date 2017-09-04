@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>1.0.1</Version>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>dotnet-embed</AssemblyName>
+    <PackageId>RendleLabs.Embedder.Tools</PackageId>
+    <Title>RendleLabs.Embedder.Tools</Title>
+    <Authors>Mark</Authors>
+    <Description>Hacky resource embedding while we wait for it to be available in Core</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Copyright>Copyright (C) 2017 RendleLabs.</Copyright>
+    <PackageTags>dotnet resource embed</PackageTags>
+    <PackageProjectUrl>https://github.com/RendleLabs/Embedder</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/RendleLabs/Embedder/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/RendleLabs/Embedder</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+</Project>

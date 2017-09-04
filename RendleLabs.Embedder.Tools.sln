@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D9251A70-B698-43E4-8FC5-2A268DB4D358}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Embedder", "src\Embedder\Embedder.csproj", "{9EF35517-6C95-4BAE-8FA9-EB64FBD8FA47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{901AE825-359E-4B92-B399-0844DD3128D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Embedder.Tests", "test\Embedder.Tests\Embedder.Tests.csproj", "{9B0A3372-67C7-4331-85AC-27BB7CD27D36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EF35517-6C95-4BAE-8FA9-EB64FBD8FA47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF35517-6C95-4BAE-8FA9-EB64FBD8FA47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF35517-6C95-4BAE-8FA9-EB64FBD8FA47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF35517-6C95-4BAE-8FA9-EB64FBD8FA47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B0A3372-67C7-4331-85AC-27BB7CD27D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0A3372-67C7-4331-85AC-27BB7CD27D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0A3372-67C7-4331-85AC-27BB7CD27D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0A3372-67C7-4331-85AC-27BB7CD27D36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9EF35517-6C95-4BAE-8FA9-EB64FBD8FA47} = {D9251A70-B698-43E4-8FC5-2A268DB4D358}
+		{9B0A3372-67C7-4331-85AC-27BB7CD27D36} = {901AE825-359E-4B92-B399-0844DD3128D1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F80DEA95-9000-402E-A409-859C5560181F}
+	EndGlobalSection
+EndGlobal
