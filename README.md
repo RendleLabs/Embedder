@@ -1,5 +1,8 @@
 # Embedder
-Hacky dotnet resource embedding while we wait for it to be available in Core. Adds a `dotnet embed` command to the project.
+
+Resource embedding [doesn't work properly in .NET Core](https://github.com/Microsoft/msbuild/issues/2221). It's weird, it works OK when you build a project in VS2017.3, but not when you `dotnet build`, or `dotnet msbuild`, or even `msbuild.exe`.
+
+So this is my super-hacky dotnet resource embedder while we wait for it to work properly, cross-platformy, command-liney in Core. It adds a `dotnet embed` command to the project, that embeds stuff *in* the project. Hence the name. So much for [Karlton](https://martinfowler.com/bliki/TwoHardThings.html) (I'll do cache invalidation next).
 
 ## Nuget
 
