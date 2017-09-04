@@ -13,6 +13,8 @@ It needs to be installed as a `DotNetCliToolReference`:
 </ItemGroup>
 ```
 
+There is no runtime dependency. All the necessary code (all ~100 lines of it) is generated into your project.
+
 ## Usage
 
 You can see the package in use [in my Shtik project](https://github.com/shtik/cli/tree/dev/src/shtik). It seems to work.
